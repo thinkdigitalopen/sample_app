@@ -1,0 +1,68 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2024-09-06 10:27:42.335231",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "school_name",
+  "studnet_details",
+  "favirote_subject",
+  "worst_subject"
+ ],
+ "fields": [
+  {
+   "fieldname": "school_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "School Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "studnet_details",
+   "fieldtype": "Table",
+   "label": "Studnet Details",
+   "options": "Student"
+  },
+  {
+   "fieldname": "favirote_subject",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Favirote Subject",
+   "options": "Subjects"
+  },
+  {
+   "fieldname": "worst_subject",
+   "fieldtype": "Link",
+   "label": "worst subject",
+   "options": "Subjects"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-16 19:20:20.429755",
+ "modified_by": "Administrator",
+ "module": "Sample App",
+ "name": "School",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "school_name"
+}

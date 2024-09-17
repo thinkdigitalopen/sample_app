@@ -1,0 +1,46 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"l2dWwARb7e\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">workspace1</span>\",\"col\":12}},{\"id\":\"1SJFG6bnq2\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"School\",\"col\":3}},{\"id\":\"bRo_ZRyV9a\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Subjects\",\"col\":3}}]",
+ "creation": "2024-09-16 20:16:21.566442",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "dashboard",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "workspace1",
+ "links": [],
+ "modified": "2024-09-16 20:24:56.057587",
+ "modified_by": "Administrator",
+ "module": "Sample App",
+ "name": "workspace1",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 23.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "School",
+   "link_to": "School",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Subjects",
+   "link_to": "Subjects",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "workspace1"
+}
