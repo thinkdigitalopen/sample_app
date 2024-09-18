@@ -16,7 +16,8 @@ frappe.ui.form.on("School", {
             frappe.db.get_value('Subjects', row1.subject, 'subject_name', (r) => {
                 if (r && r.subject_name) {
 					console.log('subject_name',r.subject_name)
-                    row1.subject_display = r.subject_name;
+                   // row1.subject_display = r.subject_name;
+					console.log(row1)
                     frm.refresh_field("studnet_details");
                 }
             });
@@ -30,6 +31,7 @@ frappe.ui.form.on("School", {
                 if (r && r.subject_name) {
 					console.log('subject_name',r.subject_name)
                     row2.subject_display = r.subject_name;
+						console.log(row2);
                     frm.refresh_field("studnet_details");
                 }
             });
@@ -45,7 +47,9 @@ frappe.ui.form.on("School", {
             frappe.db.get_value('Subjects', row3.subject, 'subject_name', (r) => {
                 if (r && r.subject_name) {
 					console.log('subject_name',r.subject_name)
-                    row2.subject_display = r.subject_name;
+                    row3.subject_display = r.subject_name;
+					                    row3.dummy_display = "dummy";
+
 					console.log(row3);
                     frm.refresh_field("studnet_details");
                 }
