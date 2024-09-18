@@ -46,7 +46,7 @@ frappe.ui.form.on("School", {
                 if (r && r.subject_name) {
 					console.log('subject_name',r.subject_name)
                     row2.subject_display = r.subject_name;
-					console(row3);
+					console.log(row3);
                     frm.refresh_field("studnet_details");
                 }
             });
